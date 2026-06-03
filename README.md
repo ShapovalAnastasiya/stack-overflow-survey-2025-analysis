@@ -1,26 +1,34 @@
-# stack-overflow-survey-2025-analysis
-
-# 📊 Stack Overflow Developer Survey Analysis (Python & Jupyter Notebook)
+# Stack Overflow Developer Survey Analysis (Python & Jupyter Notebook)
 
 ## Overview
-This project presents an exploratory data analysis of the Stack Overflow Developer Survey dataset (49,000+ respondents).
 
-The goal is to identify global developer trends in compensation, remote work, and programming language adoption, with a focus on Python.
+This project explores the Stack Overflow Developer Survey 2025 dataset to understand global trends in software development.
+
+The analysis focuses on:
+
+- Developer experience and demographics
+- Programming language usage (with emphasis on Python)
+- Remote work adoption
+- Salary distribution across countries
+- Education and learning patterns of developers
+
+The goal is to transform raw survey data into actionable insights for business and HR decision-making.
 
 ## Context
 
-The objective of this analysis was to explore large-scale survey data and answer key questions relevant for the tech job market:
+The software industry is rapidly evolving, with increasing demand for global talent, remote work opportunities, and data-driven hiring strategies.
 
-How widely is Python used among developers?
+Understanding developer behavior helps organizations to:
 
-What are the main factors influencing developer salaries?
+- Optimize hiring strategies
+- Benchmark salaries across regions
+- Identify in-demand technologies
+- Improve talent development programs
 
-How common is remote work across the industry?
-
-How do compensation levels vary across countries and experience levels?
+This dataset provides a large-scale view of real developers worldwide, making it suitable for industry-level analysis.
 
 ## Data
-Source: Stack Overflow Developer Survey
+Source: Stack Overflow Developer Survey 2025 (public open dataset)
 
 Size: 49,000+ respondents
 
@@ -30,47 +38,63 @@ Files used:
 
 > Note: Dataset is not included in the repository due to size (available on the official Stack Overflow website).
 
-Key features:
-- Country
-- Salary
-- Programming languages
-- Work arrangement (remote/on-site)
-- Education level
-- Years of experience
-
 ## Process
-1. Data Cleaning & Preparation
-- Handled missing values
-- Standardized key fields (salary, country, experience)
-- Filtered relevant columns for analysis
-2. Exploratory Data Analysis (EDA)
-- Analyzed distribution of salaries
-- Explored developer demographics
-- Investigated work experience patterns
-3. Statistical Analysis
-- Calculated:
+### 1. Data Cleaning & Preparation
+
+Handled missing values
+
+Standardized key fields (salary, country, experience)
+
+Filtered relevant columns for analysis
+
+### 2. Exploratory Data Analysis (EDA)
+
+Analyzed distribution of salaries
+
+Explored developer demographics
+
+Investigated work experience patterns
+
+### 3. Statistical Analysis
+
+Calculated:
   - Mean
   - Median
   - Mode
   - Percentiles
-- Compared distributions across segments
-4. Segmentation & Analysis
-- Segmented users by:
+
+Compared distributions across segments
+
+### 4. Segmentation & Analysis
+
+Segmented users by:
   - Country
   - Education level
   - Work type (remote vs on-site)
   - Programming language (Python focus)
-- Performed country-level salary comparison
-- Identified high-income segments
+
+Performed country-level salary comparison
+
+Identified high-income segments
+
+### 5. Visualization
+
+Built charts to support insights:
+- Python usage distribution
+- Salary comparison across countries
 
 ## Results
-*Python Adoption*: ~37% of developers use Python
+- Python is used by ~37% of developers, confirming its strong global adoption
+- Remote work is widely adopted in the tech industry
+- Significant salary differences exist across countries
+- Most developers have around 10 years of experience (mid-level concentration)
+- Education levels of top earners vary, showing no single dominant path
 
-*Remote Work*: ~25% of respondents work remotely
-
-*Salary Distribution*: Significant variation across countries
-
-*Education vs Income*: Weak correlation between formal education and high salary
+This project demonstrates the ability to:
+- Work with large real-world datasets
+- Extract meaningful insights
+- Communicate findings in a business-friendly format
+- Combine technical analysis with strategic thinking
 
 ## Business Insights & Interpretation
 - Python remains one of the most востребованих skills on the global market
@@ -83,5 +107,4 @@ Key features:
 
 ## Skills Demonstrated
 
-Python • Pandas • Data Cleaning • EDA • Statistical Analysis • Segmentation • Analytical Thinking
-
+Python • Pandas • Data Cleaning • Data Analysis • Statistical Analysis • Data Visualization • Segmentation • Analytical Thinking
